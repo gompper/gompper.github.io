@@ -27,7 +27,7 @@ twitter_username: #jekyllrb
 github_username:  gompper
 
 # Build settings
-theme: minima
+theme: mjekyll-theme-hacker
 plugins:
   - jekyll-feed
 
