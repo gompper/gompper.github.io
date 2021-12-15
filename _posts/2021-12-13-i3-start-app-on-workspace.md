@@ -6,7 +6,7 @@ categories: i3 dotfiles
 ---
 First get class name of app by running
 {% highlight bash %}
-xprop | grep ‘WM_CLASS(STRING)’
+xprop | grep 'WM_CLASS(STRING)'
 {% endhighlight %}
 and clicking on the window of the app.
 Then in .config/i3/config
