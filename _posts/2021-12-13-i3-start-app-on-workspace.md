@@ -9,9 +9,9 @@ First get class name of app by running
 xprop | grep 'WM_CLASS(STRING)'
 {% endhighlight %}
 and clicking on the window of the app.
-Then in .config/i3/config
+Then in .config/i3/config add following line, filling in `<classname>` and `<workspacename>`
 {% highlight bash %}
-for_window [class=”“] move container to workspace
+for_window [class=”<classname>“] move container to workspace <workspacename>
 {% endhighlight %}
 e.g.
 {% highlight bash %}
